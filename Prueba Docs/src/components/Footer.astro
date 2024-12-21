@@ -1,0 +1,73 @@
+---
+// src/components/Footer.astro
+---
+
+<footer>
+  <div class="footer-content">
+    <hr class="footer-divider" />
+    <div class="footer-section">
+      <h3>Contacto</h3>
+      <p>Slack: <a href="https://42born2code.slack.com/archives/D067AD94V45" target="_blank">@vicana-r</a></p>
+      <p>Email: <a href="mailto:victorca380@gmail.com" target="_blank">victorca380@gmail.com</a></p>
+      <p>Email: <a href="mailto:vicana-r@student.42malaga.com" target="_blank">vicana-r@student.42malaga.com</a></p>
+    </div>
+    <div class="footer-section">
+      <h3>Redes Sociales</h3>
+      <p><a href="https://github.com/victoor832" target="_blank">GitHub</a></p>
+      <p><a href="https://www.linkedin.com/in/victoor832/" target="_blank">LinkedIn</a></p>
+    </div>
+    <div class="footer-section">
+      <h3>Recursos</h3>
+      <p><a href="/inicio/nivel_inicio">Roadmap</a></p>
+      <p><a href="/proyectos/">Proyectos</a></p>
+    </div>
+  </div>
+
+  <hr class="footer-divider" />
+
+  <div class="footer-bottom">
+    <p>&copy; 2024 Roadmap de Desarrollo Full-Stack. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background-color: var(--sl-color-bg-offset);
+    color: var(--sl-color-text);
+    padding: 2rem 0;
+    margin-top: 4rem;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 8rem 0 auto;
+  }
+  .footer-section {
+    margin-bottom: 1rem;
+  }
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .footer-section p {
+    margin: 0.25rem 0;
+  }
+  .footer-section a {
+    color: var(--sl-color-text-accent);
+    text-decoration: none;
+  }
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  .footer-divider {
+    border: 0;
+    border-top: 1px solid var(--sl-color-hairline);
+    margin: 2rem auto;
+    width: 100%;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+  }
+</style>

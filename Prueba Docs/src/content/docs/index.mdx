@@ -1,0 +1,55 @@
+---
+title: Roadmap de Desarrollo Full-Stack
+description: Guía completa para convertirte en un desarrollador Full-Stack.
+template: splash
+hero:
+  tagline: Domina el desarrollo web de principio a fin
+  image:
+    file: ../../../public/VR_logo_with_dot.png
+  actions:
+    - text: Comenzar el Roadmap
+      link: /inicio/nivel_inicio
+      icon: right-arrow
+    - text: Ver Proyectos
+      link: /ejercicios
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import Footer from '../../components/Footer.astro';
+
+## Áreas de Estudio
+
+<CardGrid stagger>
+  <Card title="Frontend" icon="seti:html">
+    Aprende HTML, CSS, JavaScript y frameworks modernos como React, Vue y Angular.
+  </Card>
+  <Card title="Backend" icon="seti:db">
+    Domina lenguajes de servidor, bases de datos y frameworks como Express, Django y Spring.
+  </Card>
+  <Card title="DevOps" icon="seti:docker">
+    Explora CI/CD, contenedores y despliegue en la nube.
+  </Card>
+  <Card title="Fundamentos de CS" icon="seti:default">
+    Profundiza en algoritmos, estructuras de datos y patrones de diseño.
+  </Card>
+</CardGrid>
+
+## Próximos Pasos
+
+<CardGrid stagger>
+  <Card title="Elige tu camino" icon="random">
+    Decide si quieres empezar por Frontend, Backend o full-stack desde el principio.
+  </Card>
+  <Card title="Completa proyectos" icon="laptop">
+    Aplica tus conocimientos construyendo aplicaciones reales.
+  </Card>
+  <Card title="Únete a la comunidad" icon="discord">
+    Conecta con otros desarrolladores en nuestro servidor de Discord.
+  </Card>
+  <Card title="Mantente actualizado" icon="rss">
+    Suscríbete a nuestro boletín para las últimas actualizaciones del roadmap.
+  </Card>
+</CardGrid>
+<Footer />

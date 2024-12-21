@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+<StarlightPage frontmatter={{ title: 'Ejercicios Full-Stack' }}>
+  <style is:inline>
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <BaseLayout title="">
+    <main>
+      <p style="margin-top: -2rem;">Bienvenido a nuestra colección de ejercicios prácticos diseñados para mejorar tus habilidades en desarrollo web full-stack.</p>
+
+      <h2>Ejercicios de Frontend</h2>
+
+      <h3>Principiante</h3>
+      <ol>
+        <li>Crea una página de perfil personal utilizando solo HTML y CSS.</li>
+        <li>Implementa un formulario de contacto con validación del lado del cliente usando JavaScript.</li>
+        <li>Desarrolla una galería de imágenes responsive sin usar frameworks.</li>
+      </ol>
+
+      <h3>Intermedio</h3>
+      <ol>
+        <li>Construye una aplicación de lista de tareas (Todo List) usando React o Vue.js.</li>
+        <li>Crea un dashboard interactivo con gráficos utilizando D3.js o Chart.js.</li>
+        <li>Implementa un juego simple (como Piedra, Papel o Tijera) usando JavaScript puro.</li>
+      </ol>
+
+      <h3>Avanzado</h3>
+      <ol>
+        <li>Desarrolla una aplicación de comercio electrónico con carrito de compras usando React y Redux.</li>
+        <li>Crea una aplicación de chat en tiempo real utilizando WebSockets.</li>
+        <li>Implementa una aplicación de edición de imágenes en el navegador usando Canvas API.</li>
+      </ol>
+
+      <h2>Ejercicios de Backend</h2>
+
+      <h3>Principiante</h3>
+      <ol>
+        <li>Crea un servidor HTTP simple en Node.js que sirva archivos estáticos.</li>
+        <li>Implementa un API RESTful para una aplicación de notas usando Express.js.</li>
+        <li>Desarrolla un script que lea un archivo CSV y lo importe a una base de datos SQL.</li>
+      </ol>
+
+      <h3>Intermedio</h3>
+      <ol>
+        <li>Crea un sistema de autenticación JWT para tu API.</li>
+        <li>Implementa un sistema de caché para mejorar el rendimiento de tu aplicación.</li>
+        <li>Desarrolla un worker que procese tareas en segundo plano utilizando una cola de mensajes.</li>
+      </ol>
+
+      <h3>Avanzado</h3>
+      <ol>
+        <li>Crea un sistema de microservicios para una aplicación de comercio electrónico.</li>
+        <li>Implementa un sistema de búsqueda en tiempo real utilizando Elasticsearch.</li>
+        <li>Desarrolla una API GraphQL con resolvers complejos y optimización de consultas.</li>
+      </ol>
+
+      <h2>Ejercicios de Base de Datos</h2>
+
+      <h3>Principiante</h3>
+      <ol>
+        <li>Diseña e implementa un esquema de base de datos para una biblioteca.</li>
+        <li>Escribe consultas SQL para realizar operaciones CRUD en tu base de datos.</li>
+        <li>Implementa relaciones uno-a-muchos y muchos-a-muchos en tu esquema.</li>
+      </ol>
+
+      <h3>Intermedio</h3>
+      <ol>
+        <li>Optimiza el rendimiento de tus consultas utilizando índices y explain plan.</li>
+        <li>Implementa transacciones para mantener la integridad de los datos.</li>
+        <li>Crea procedimientos almacenados y triggers para automatizar tareas comunes.</li>
+      </ol>
+
+      <h3>Avanzado</h3>
+      <ol>
+        <li>Diseña un sistema de particionamiento para una base de datos de gran escala.</li>
+        <li>Implementa un sistema de replicación maestro-esclavo.</li>
+        <li>Desarrolla una estrategia de migración de datos para cambiar de SQL a NoSQL.</li>
+      </ol>
+
+      <h2>Ejercicios de DevOps</h2>
+
+      <h3>Principiante</h3>
+      <ol>
+        <li>Configura un entorno de desarrollo local usando Docker.</li>
+        <li>Implementa un pipeline de CI/CD básico usando GitHub Actions.</li>
+        <li>Escribe un script de bash para automatizar backups de base de datos.</li>
+      </ol>
+
+      <h3>Intermedio</h3>
+      <ol>
+        <li>Configura un cluster de Kubernetes y despliega una aplicación en él.</li>
+        <li>Implementa monitoreo y logging para tu aplicación usando ELK stack.</li>
+        <li>Crea un script de Terraform para provisionar infraestructura en la nube.</li>
+      </ol>
+
+      <h3>Avanzado</h3>
+      <ol>
+        <li>Implementa una arquitectura serverless completa en AWS o Google Cloud.</li>
+        <li>Desarrolla una estrategia de disaster recovery y pruébala.</li>
+        <li>Configura un sistema de service mesh para una arquitectura de microservicios.</li>
+      </ol>
+
+      <h2>Proyectos Integradores</h2>
+
+      <p>Estos proyectos te ayudarán a combinar todas las habilidades que has aprendido:</p>
+
+      <ol>
+        <li><strong>Blog Personal</strong>: Crea un blog completo con frontend, backend, base de datos y autenticación.</li>
+        <li><strong>Plataforma de E-learning</strong>: Desarrolla una plataforma donde los usuarios puedan crear y tomar cursos en línea.</li>
+        <li><strong>Red Social para Desarrolladores</strong>: Implementa una red social centrada en compartir proyectos y conectar desarrolladores.</li>
+        <li><strong>Sistema de Gestión de Proyectos</strong>: Crea una herramienta tipo Trello para gestionar proyectos y tareas.</li>
+        <li><strong>Marketplace de Freelancers</strong>: Desarrolla una plataforma donde freelancers puedan ofrecer sus servicios y los clientes puedan contratarlos.</li>
+      </ol>
+
+      <p>Recuerda, la práctica constante es clave para mejorar tus habilidades. ¡Buena suerte con tus ejercicios!</p>
+
+      <hr>
+    </main>
+  </BaseLayout>
+</StarlightPage>
+
+<style>
+  main {
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+</style>
