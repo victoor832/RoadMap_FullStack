@@ -1,54 +1,104 @@
-# Starlight Starter Kit: Basics
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+# 🚀 Roadmap de Desarrollo Full-Stack
 
-```
-npm create astro@latest -- --template starlight
-```
+Este repositorio ofrece una guía completa para convertirse en desarrollador Full-Stack, implementada como un sitio web documentativo utilizando Astro y Starlight.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## 📚 Contenido
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+El roadmap está organizado en diferentes niveles y tecnologías:
 
-## 🚀 Project Structure
+### Niveles de Aprendizaje
+- **Nivel 0**: Conceptos fundamentales
+- **Nivel 1**: Desarrollo intermedio
+- **Nivel 2**: Desarrollo avanzado
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+### Tecnologías Frontend
+- React
+- Angular
+- Vue
+- Astro
+- Svelte
 
-```
+### Tecnologías Backend
+- Express
+- Django
+- Laravel
+- .NET
+- Spring
+
+## 🛠️ Tecnologías Utilizadas
+
+- [Astro](https://astro.build)
+- [Starlight](https://starlight.astro.build)
+- TypeScript
+- Markdown/MDX
+
+## 🚀 Iniciar el Proyecto
+
+Sigue los siguientes pasos para comenzar con el proyecto:
+
+1. **Clona el repositorio**:
+    ```bash
+    git clone [URL-del-repositorio]
+    ```
+
+2. **Instala las dependencias**:
+    ```bash
+    npm install
+    ```
+
+3. **Inicia el servidor de desarrollo**:
+    ```bash
+    npm run dev
+    ```
+
+## 📦 Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo.
+- `npm run build`: Construye el proyecto para producción.
+- `npm run preview`: Previsualiza la build de producción.
+- `npm run astro`: Ejecuta comandos de Astro CLI.
+
+## 📂 Estructura del Proyecto
+
+```plaintext
 .
-├── public/
+├── public/              # Archivos estáticos
 ├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+│   ├── assets/          # Imágenes y otros recursos
+│   ├── components/      # Componentes de Astro
+│   ├── content/         # Contenido en Markdown/MDX
+│   │   └── docs/        # Documentación
+│   ├── layouts/         # Layouts de Astro
+│   └── pages/           # Páginas
+├── astro.config.mjs     # Configuración de Astro
+└── package.json         # Dependencias y scripts del proyecto
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 👥 Contribución
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+Las contribuciones son bienvenidas. Por favor sigue estos pasos para contribuir:
 
-Static assets, like favicons, can be placed in the `public/` directory.
+1. Haz **fork** del repositorio.
+2. Crea una **rama** para tu feature:
+    ```bash
+    git checkout -b feature/AmazingFeature
+    ```
+3. Haz **commit** de tus cambios:
+    ```bash
+    git commit -m 'Add some AmazingFeature'
+    ```
+4. **Push** a tu rama:
+    ```bash
+    git push origin feature/AmazingFeature
+    ```
+5. Abre un **Pull Request**.
 
-## 🧞 Commands
+## 📝 Licencia
 
-All commands are run from the root of the project, from a terminal:
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 📧 Contacto
 
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- **Slack**: @vicana-r
+- **Email**: [victorca380@gmail.com](mailto:victorca380@gmail.com) o [vicana-r@student.42malaga.com](mailto:vicana-r@student.42malaga.com)
