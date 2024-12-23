@@ -30,8 +30,8 @@ El roadmap está organizado en diferentes niveles y tecnologías:
 
 - [Astro](https://astro.build)
 - [Starlight](https://starlight.astro.build)
-- TypeScript
-- Markdown/MDX
+- [TypeScript](https://www.typescriptlang.org/)
+- [Markdown/MDX](https://mdxjs.com/)
 
 ## 🚀 Iniciar el Proyecto
 
@@ -39,7 +39,7 @@ Sigue los siguientes pasos para comenzar con el proyecto:
 
 1. **Clona el repositorio**:
     ```bash
-    git clone [URL-del-repositorio]
+    git clone https://github.com/victoor832/RoadMap_FullStack.git
     ```
 
 2. **Instala las dependencias**:
@@ -105,7 +105,3 @@ Este proyecto está bajo la Licencia GNU General Public License v3.0 (GPL-3.0). 
 
 Ver el archivo `LICENSE` para más detalles.
 
-## 📧 Contacto
-
-- **Slack**: @vicana-r
-- **Email**: [victorca380@gmail.com](mailto:victorca380@gmail.com) o [vicana-r@student.42malaga.com](mailto:vicana-r@student.42malaga.com)
