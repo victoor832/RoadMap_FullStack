@@ -96,7 +96,14 @@ Las contribuciones son bienvenidas. Por favor sigue estos pasos para contribuir:
 
 ## 📝 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia GNU General Public License v3.0 (GPL-3.0). Esta licencia asegura que:
+
+- El software puede ser usado, modificado y distribuido libremente
+- Cualquier software derivado debe también distribuirse bajo GPL-3.0
+- Los cambios realizados al código deben ser documentados
+- El código fuente debe estar disponible
+
+Ver el archivo `LICENSE` para más detalles.
 
 ## 📧 Contacto
 
