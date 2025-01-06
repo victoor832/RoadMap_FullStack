@@ -1,0 +1,7 @@
+:root[data-theme="light"] .hero img {
+  filter: invert(1) brightness(0);
+}
+
+:root[data-theme="dark"] .hero img {
+  filter: invert(1) brightness(100);
+}

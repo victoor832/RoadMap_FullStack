@@ -4,6 +4,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
+      customCss: [
+        './src/styles/custom.css',
+      ],
       favicon: '/VR_logo_with_dot.png',
       title: 'Roadmap FullStack',
       sidebar: [
