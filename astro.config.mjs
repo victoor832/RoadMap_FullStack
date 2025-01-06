@@ -7,7 +7,7 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css',
       ],
-      favicon: '/VR_logo_with_dot.png',
+      favicon: '/VR_gray_32x16.png',
       title: 'Roadmap FullStack',
       sidebar: [
         {
