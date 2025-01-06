@@ -5,6 +5,13 @@ sidebar:
   label: Nivel 0
   order: 2
 ---
+# Esquema Visual
+  <object data="/assets/frontend.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="500px" style="overflow: hidden; margin-bottom: 2rem">
+    <p>Tu navegador no puede mostrar PDFs directamente. 
+      <a href="/assets/frontend.pdf">Descarga el PDF</a>
+    </p>
+  </object>
+
 # Conceptos para Desarrollar
 
 <br>
@@ -168,7 +175,7 @@ sidebar:
 </details>
 
 <style is:inline>
-  h2 {
+  h2,h1 {
     text-align: center;
   }
   #_top {

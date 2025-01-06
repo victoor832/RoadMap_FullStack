@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
+      favicon: '/VR_logo_with_dot.png',
       title: 'Roadmap FullStack',
       sidebar: [
         {
@@ -39,15 +40,12 @@ export default defineConfig({
         {
           label: 'Revisión de ejercicios',
           link: '/revision'
-        }
+        },
+        {
+          label: 'Ejercicios',
+          link: '/ejercicios',
+        },
       ],
-/*       customCss: [
-        './src/styles/custom.css',
-      ], */
     })
   ],
-  // Aquí añadimos una página personalizada fuera de Starlight
-  pages: {
-    '/ejercicios': 'src/pages/ejercicios.astro',
-  },
 });

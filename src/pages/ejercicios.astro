@@ -7,6 +7,9 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
     h1 {
       text-align: center;
     }
+    h2 {
+      margin-bottom: 2rem;
+    }
   </style>
   <BaseLayout title="">
     <main>
@@ -16,21 +19,21 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 
       <h3>Principiante</h3>
       <ol>
-        <li>Crea una página de perfil personal utilizando solo HTML y CSS.</li>
-        <li>Implementa un formulario de contacto con validación del lado del cliente usando JavaScript.</li>
+        <li>Crea una página de perfil personal (portfolio) utilizando solo HTML y CSS.</li>
+        <li>Implementa un formulario de contacto con validación (valida si la forma de contacto que usa el usuario es correcto o existe) del lado del cliente usando JavaScript.</li>
         <li>Desarrolla una galería de imágenes responsive sin usar frameworks.</li>
       </ol>
 
       <h3>Intermedio</h3>
       <ol>
-        <li>Construye una aplicación de lista de tareas (Todo List) usando React o Vue.js.</li>
-        <li>Crea un dashboard interactivo con gráficos utilizando D3.js o Chart.js.</li>
+        <li>Construye una aplicación de lista de tareas (Todo List) usando un framework.</li>
+        <li>Crea un dashboard interactivo con gráficos utilizando D3.js, Chart.js o cualquier libreria de JS.</li>
         <li>Implementa un juego simple (como Piedra, Papel o Tijera) usando JavaScript puro.</li>
       </ol>
 
       <h3>Avanzado</h3>
       <ol>
-        <li>Desarrolla una aplicación de comercio electrónico con carrito de compras usando React y Redux.</li>
+        <li>Desarrolla una aplicación de comercio electrónico con carrito de compras (estilo Amazon) usando un frameowrk.</li>
         <li>Crea una aplicación de chat en tiempo real utilizando WebSockets.</li>
         <li>Implementa una aplicación de edición de imágenes en el navegador usando Canvas API.</li>
       </ol>
@@ -53,9 +56,10 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 
       <h3>Avanzado</h3>
       <ol>
-        <li>Crea un sistema de microservicios para una aplicación de comercio electrónico.</li>
+        <li>Crea un sistema de microservicios para una aplicación de comercio electrónico (estilo Amazon).</li>
         <li>Implementa un sistema de búsqueda en tiempo real utilizando Elasticsearch.</li>
         <li>Desarrolla una API GraphQL con resolvers complejos y optimización de consultas.</li>
+        <li>Replica una aplicacion capaz de convertir varios archivos a Markdown, JSON o el que prefieras (estilo <a href="https://github.com/microsoft/markitdown" target="_blank">MarkItDown</a>)</li>
       </ol>
 
       <h2>Ejercicios de Base de Datos</h2>
@@ -104,12 +108,12 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
         <li>Configura un sistema de service mesh para una arquitectura de microservicios.</li>
       </ol>
 
-      <h2>Proyectos Integradores</h2>
+      <h2>Proyectos Integrados</h2>
 
       <p>Estos proyectos te ayudarán a combinar todas las habilidades que has aprendido:</p>
 
       <ol>
-        <li><strong>Blog Personal</strong>: Crea un blog completo con frontend, backend, base de datos y autenticación.</li>
+        <li><strong>Blog Personal/Blog de una empresa existente</strong>: Crea un blog completo con frontend, backend, base de datos y autenticación.</li>
         <li><strong>Plataforma de E-learning</strong>: Desarrolla una plataforma donde los usuarios puedan crear y tomar cursos en línea.</li>
         <li><strong>Red Social para Desarrolladores</strong>: Implementa una red social centrada en compartir proyectos y conectar desarrolladores.</li>
         <li><strong>Sistema de Gestión de Proyectos</strong>: Crea una herramienta tipo Trello para gestionar proyectos y tareas.</li>
